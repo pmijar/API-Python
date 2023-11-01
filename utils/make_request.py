@@ -5,7 +5,7 @@ def make_request(method, url, header=None, data=None):
     if method == "GET":
         return requests.get(url)
     if method == "DELETE":
-        return requests.get(url)
+        return requests.delete(url)
     if method == "POST":
         return requests.post(url=url, headers=header, data=data)
     if method == "PUT":
