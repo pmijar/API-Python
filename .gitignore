@@ -1,4 +1,5 @@
 .idea
-env
-src
-.pytest_cache
+env/
+src/
+.pytest_cache/
+
